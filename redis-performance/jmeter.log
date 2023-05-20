@@ -1,0 +1,86 @@
+2023-05-16 02:44:37,457 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-05-16 02:44:37,502 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.5/libexec/bin/user.properties
+2023-05-16 02:44:37,508 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.5/libexec/bin/system.properties
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: Version 5.5
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: java.version=19.0.2
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: os.arch=x86_64
+2023-05-16 02:44:37,512 INFO o.a.j.JMeter: os.version=13.3.1
+2023-05-16 02:44:37,513 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-05-16 02:44:37,513 INFO o.a.j.JMeter: java.awt.headless=null
+2023-05-16 02:44:37,513 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-05-16 02:44:37,513 INFO o.a.j.JMeter: Available Processors =12
+2023-05-16 02:44:37,521 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-05-16 02:44:37,521 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-05-16 02:44:37,521 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.5/libexec
+2023-05-16 02:44:37,521 INFO o.a.j.JMeter: user.dir  =/Users/tsaluja/Documents/jpa-projects/redis-performance
+2023-05-16 02:44:37,521 INFO o.a.j.JMeter: PWD       =/Users/tsaluja/Documents/jpa-projects/redis-performance
+2023-05-16 02:44:37,549 INFO o.a.j.JMeter: IP: 172.18.20.51 Name: EXPC02CP0DZPWD5 FullName: 172.18.20.51
+2023-05-16 02:44:37,558 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-05-16 02:44:38,441 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.apple.laf.AquaLookAndFeel
+2023-05-16 02:44:40,406 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-1142ab37024126882f73eb16b68a617f-gui
+2023-05-16 02:44:43,585 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-casutg=2.10, jpgc-plugins-manager=1.7, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2023-05-16 02:44:43,587 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2023-05-16 02:44:53,446 INFO o.a.j.s.FileServer: Default base='/Users/tsaluja/Documents/jpa-projects/redis-performance'
+2023-05-16 02:44:53,449 INFO o.a.j.g.a.Load: Loading file: /Users/tsaluja/Documents/jpa-projects/redis-performance/results-new.jtl
+2023-05-16 02:44:53,449 INFO o.a.j.s.FileServer: Set new base='/Users/tsaluja/Documents/jpa-projects/redis-performance'
+2023-05-16 02:44:53,608 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-05-16 02:44:53,619 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-05-16 02:44:53,620 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-05-16 02:44:53,622 INFO o.a.j.s.SaveService: Loading file: /Users/tsaluja/Documents/jpa-projects/redis-performance/results-new.jtl
+2023-05-16 02:44:53,950 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: /Users/tsaluja/Documents/jpa-projects/redis-performance/results-new.jtl
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:112) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.7.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:675) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:633) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:616) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:552) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2034) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1899) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.17.2.jar:2.17.2]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:129) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:88) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.5]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2023-05-16 02:44:53,967 WARN o.a.j.g.a.Load: Error in XML format. org.xmlpull.v1.XmlPullParserException: only whitespace content allowed before start tag and not t (position: START_DOCUMENT seen t... @1:2) 
+2023-05-16 02:44:53,968 ERROR o.a.j.u.JMeterUtils: only whitespace content allowed before start tag and not t (position: START_DOCUMENT seen t... @1:2) 
+2023-05-16 02:45:05,516 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-05-16 02:45:05,516 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-05-16 02:45:05,516 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-05-16 02:45:05,516 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-05-16 02:45:05,518 INFO o.a.j.s.SampleEvent: List of sample_variables: []
